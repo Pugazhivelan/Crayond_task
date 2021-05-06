@@ -29,32 +29,9 @@
   margin-top: 80px;
 }
 
-.text {
-  position: relative;
-  top: -55px;
-  padding: 0px;
-  left: 0.5%;
-  text-align: center;
-}
 
-.text2 {
-  position: relative;
-  top: -48px;
-  padding: 0px;
-  left: 0.5%;
-  text-align: center;
-  font-style: inherit;
-  font-size: 30px;
-}
 
-.text3 {
-  position: relative;
-  top: -41px;
-  padding: 0px;
-  left: 0.5%;
-  text-align: center;
-  font-style: normal;
-}
+
 .weAreStill {
   margin-top: 50px;
   font-weight: 100;

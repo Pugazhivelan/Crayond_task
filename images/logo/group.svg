@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="36" viewBox="0 0 148 36">
+    <defs>
+        <filter id="eugmzrytka">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+        <style type="text/css">
+         @font-face {
+            font-family: "Cookie";
+            src: url("../../font/Cookie/Cookie-Regular.ttf");
+         }
+        </style>    
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-648 -24) translate(648 24)">
+                <circle cx="18" cy="18" r="18" fill="#0E47DF"/>
+                <g filter="url(#eugmzrytka)">
+                    <g fill="#FFF" fill-rule="nonzero" stroke="#FFF">
+                        <path d="M4.433 2.286c-1.606 0-2.91 1.44-2.91 3.215 0 1.776 1.304 3.215 2.91 3.215H6.76V7.43H4.433c-.964 0-1.746-.863-1.746-1.929s.782-1.93 1.746-1.93h4.59V2.287h-4.59z" transform="translate(9.985 10.329) rotate(45 5.273 5.501)"/>
+                        <path d="M9.587 7.465c-1.606 0-2.909 1.44-2.909 3.215s1.303 3.215 2.91 3.215h2.326V12.61H9.587c-.964 0-1.745-.864-1.745-1.93 0-1.065.781-1.928 1.745-1.928h4.59V7.465h-4.59z" transform="translate(9.985 10.329) rotate(-135 10.428 10.68)"/>
+                    </g>
+                </g>
+                <text fill="#181A38" fill-rule="nonzero" stroke="#181A38" stroke-width=".7" font-family="Cookie" font-size="28">
+                    <tspan x="51.072" y="25">Designknot</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

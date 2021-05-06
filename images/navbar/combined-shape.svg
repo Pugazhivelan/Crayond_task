@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="91" viewBox="0 0 400 91">
+    <defs>
+        <filter id="95wr0zmrya" width="106.4%" height="112.9%" x="-3.2%" y="-3.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0926763066 0 0 0 0 0.10100482 0 0 0 0 0.218042346 0 0 0 0.04 0"/>
+        </filter>
+        <path id="wife39988b" d="M911.5 0c-11.471 1.313-21.138 5.313-29 12-6.699 5.698-11.199 12.59-13.5 20.678V39c0 25.405-20.595 46-46 46H618c-25.405 0-46-20.595-46-46l.002-7.95C569.579 23.66 565.245 17.311 559 12c-7.862-6.687-17.529-10.687-29-12z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(-521)">
+            <use fill="#000" filter="url(#95wr0zmrya)" xlink:href="#wife39988b"/>
+            <use fill="#FFF" stroke="#F4F4F9" xlink:href="#wife39988b"/>
+        </g>
+    </g>
+</svg>

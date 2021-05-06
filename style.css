@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9ff;
+}
+
+.head {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.containerCenter {
+  display: flex;
+  justify-content: center;
+}
+.image1 {
+  position: relative;
+  width: 250px;
+}
+
+.image2 {
+  width: 110px;
+  position: absolute;
+  top: 2%;
+}
+
+.image3 {
+  width: 50px;
+  margin-top: 80px;
+}
+
+.text {
+  position: relative;
+  top: -55px;
+  padding: 0px;
+  left: 0.5%;
+  text-align: center;
+}
+
+.text2 {
+  position: relative;
+  top: -48px;
+  padding: 0px;
+  left: 0.5%;
+  text-align: center;
+  font-style: inherit;
+  font-size: 30px;
+}
+
+.text3 {
+  position: relative;
+  top: -41px;
+  padding: 0px;
+  left: 0.5%;
+  text-align: center;
+  font-style: normal;
+}
+.weAreStill {
+  margin-top: 50px;
+  font-weight: 100;
+  font-size: 18px;
+  color: #181a38;
+  font-family: "Roboto", sans-serif;
+}
+.cookingOurWebsite {
+  text-align: center;
+  margin-top: 15px;
+  color: #0e47df;
+  font-size: 55px;
+  font-family: "Open Sans", sans-serif;
+}
+.launchSoon {
+  color: #93939f;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.outSiteStayTune {
+  color: #93939f;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.insideStayTune {
+  visibility: hidden;
+  color: #93939f;
+}
+.emailTextfield {
+  margin-top: 30px;
+  padding: 13px 10px 13px 10px;
+  border-radius: 25px;
+  background: #2b2e4a;
+  color: gray;
+}
+.containerBottom {
+  left: 40%;
+  position: absolute;
+  bottom: 3%;
+}
+.firstIcon {
+  padding: 10px;
+  background: white;
+  border-radius: 25px;
+  margin-right: 8px;
+}
+.secondIcon {
+  padding: 10px;
+  background: white;
+  border-radius: 25px;
+  margin-right: 8px;
+  opacity: 0.5;
+}
+.notifyMe {
+  visibility: hidden;
+}
+.floatContainer {
+  position: relative;
+  margin-top: 20px;
+}
+.floatOne {
+  position: fixed;
+  width: 50px;
+  height: auto;
+  left: 20%;
+}
+
+.floatTwo {
+  position: fixed;
+  width: 50px;
+  height: auto;
+  right: 20%;
+}
+.emojiCool {
+  background-color: transparent;
+}
+.textEmail {
+  padding: 4px 20px 4px 10px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  caret-color: white;
+  color: white;
+}
+
+.textEmail:focus {
+  background-color: transparent;
+  border: 1px solid transparent !important;
+}
+.textEmail:focus-visible {
+  background-color: transparent;
+  border: 1px solid transparent !important;
+}
+input[type="email"],
+textarea,
+select {
+  outline: none;
+}
+.textEmail:active {
+  background-color: transparent;
+  border: 1px solid transparent !important;
+}
+@media only screen and (max-width: 768px) {
+  .image3 {
+    width: 50px;
+    margin-top: 60px;
+  }
+  .weAreStill {
+    margin-top: 40px;
+  }
+  .launchSoon {
+    width: 75%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .outSiteStayTune {
+    width: 75%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .insideStayTune {
+    visibility: unset;
+  }
+  .cookingOurWebsite {
+    width: 70%;
+    font-size: 28px;
+    text-align: center;
+  }
+  .emailTextfield {
+    display: none;
+  }
+  .notifyMe {
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 7px 34px 7px 13px;
+    display: flex;
+    background: #2b2e4a;
+    color: white;
+    align-items: center;
+    font-weight: 600;
+    visibility: unset;
+  }
+  .mobileArrow {
+    background: transparent;
+  }
+  .mobileMail {
+    background-color: white;
+    width: 20px;
+    padding: 9px 8px;
+    border-radius: 20px;
+  }
+  .outSiteStayTune {
+    display: none;
+  }
+  .containerBottom {
+    left: 34%;
+    position: fixed;
+    bottom: 3%;
+  }
+  .floatOne {
+    position: fixed;
+    width: 28px;
+    height: auto;
+    left: 17%;
+  }
+
+  .floatTwo {
+    position: fixed;
+    width: 28px;
+    height: auto;
+    right: 17%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .cookingOurWebsite {
+    font-size: 35px;
+  }
+  .launchSoon {
+    font-size: 16px;
+  }
+  .insideStayTune {
+    display: none;
+  }
+  .outSiteStayTune {
+    width: 75%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.4;
+    display: unset;
+  }
+}
